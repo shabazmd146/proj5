@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index</title>
+    <link rel="stylesheet" href="{% static 'css/base.css' %}">
+</head>
+<body>
+    <div>
+        <div class="header">
+            <header>
+                <h1>this is project</h1>
+            </header>
+        </div>
+    </div>
+    <div class="c2">
+        this is car collection
+        {% block b1 %}
+        {% endblock b1 %}
+    </div>
+    <div class="footer">
+        <footer>
+            <h1>thanks for visiting</h1>
+        </footer>
+    </div>
+</body>
+</html>
